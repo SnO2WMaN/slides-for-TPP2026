@@ -1,0 +1,97 @@
+SN26:
+  type: article
+  title: "Mechanizing Gödel's Incompleteness Theorems and Provability Logic"
+  url: https://arxiv.org/abs/2609.13780
+  author:
+    - Saitou, Shogo
+    - Noguchi, Mashū
+  date: 2026-09-12
+  serial-number:
+    arxiv: "2609.13780"
+
+FormalConjectures:
+  type: web
+  title: "Formal Conjectures"
+  author: The Formal Conjectures Authors
+  date: 2025
+  url: https://github.com/google-deepmind/formal-conjectures
+  note: FormalConjectures
+
+Bek90:
+  type: article
+  title: On the Classification of Propositional Provability Logics
+  author: Beklemishev, Lev D.
+  date: 1990-04
+  page-range: 247-275
+  serial-number:
+    doi: 10.1070/IM1990v035n02ABEH000701
+    issn: 0025-5726
+  parent:
+    type: periodical
+    title: Mathematics of the USSR-Izvestiya
+    issue: 2
+    volume: 35
+
+Kik16:
+  type: book
+  title: "数学における証明と真理: 様相論理と数学基礎論"
+  author:
+    - 菊池, 誠
+    - 佐野, 勝彦
+    - 倉橋, 太志
+    - 薄葉, 季路
+    - 黒川, 英徳
+  editor: 菊池, 誠
+  date: 2016-03-28
+  serial-number:
+    isbn: 978-4-320-11148-6
+  url: https://www.kyoritsu-pub.co.jp/book/b10003727.html
+  publisher:
+    name: 共立出版
+
+Kay91:
+  type: book
+  title: Models of Peano Arithmetic
+  author: Kaye, Richard
+  date: 1991
+  publisher:
+    name: Clarendon Press
+  serial-number:
+    isbn: 978-0-19-853213-2
+  parent:
+    type: book
+    title: Oxford Logic Guides
+    volume: 15
+
+HP93:
+  type: book
+  title: Metamathematics of First-Order Arithmetic
+  author:
+    - Hájek, Petr
+    - Pudlák, Pavel
+  date: 1993
+  publisher:
+    name: Springer
+  parent:
+    type: book
+    title: Perspectives in Mathematical Logic
+
+Lin97:
+  type: book
+  title: Aspects of Incompleteness
+  author: Lindström, Per
+  date: 1997
+  publisher:
+    name: Springer
+  parent:
+    type: book
+    title: Lecture Notes in Logic
+    volume: 10
+
+TauCeti:
+  type: web
+  title: "TauCeti: An AIs-welcome Lean library downstream of Mathlib"
+  author: The TauCeti Project
+  url: https://github.com/TauCetiProject/TauCeti
+  date: 2026
+ 
