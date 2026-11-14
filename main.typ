@@ -201,7 +201,7 @@ AIが登場するまで難航していた．
   2. 算術的階層 $Gamma = Sigma_n, Pi_n colon n >= 0$ について，任意の $Gamma$-文 $sigma$ について $PA proves upright("True")_Gamma (godelize(sigma)) <-> sigma$ となる $Gamma$-部分真理定義述語 $upright("True")_Gamma (x)$ は定義出来る．
 ]
 
-部分真理定義述語 $upright("True")_Gamma (x)$ は応用上の重要な役割を果たすため実際に定義したい．
+部分真理定義述語 $upright("True")_Gamma (x)$ は応用上の重要な役割を果たすため実際に構成したい．
 しかし．．．
 
 #quote(block: true, attribution: [@Kay91])[
