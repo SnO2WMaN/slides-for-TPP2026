@@ -6,14 +6,11 @@
 
 ## ビルド
 
-必要なフォントを `fonts/` に取得してからビルドする（GitHub Actions でも同じ手順）．
+Typst 0.15.1 でビルドする．使うフォントは Shippori Antique，Shippori Antique B1，Geist，Juisee，Material Symbols Outlined で，取得元は [deploy.yml](.github/workflows/deploy.yml) を参照．
 
 ```bash
-scripts/install-fonts.sh
-typst compile --ignore-system-fonts --font-path fonts main.typ
+typst compile main.typ
 ```
-
-Typst は 0.15.1 を使う．
 
 ## License
 

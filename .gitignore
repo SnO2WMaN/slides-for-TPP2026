@@ -3,5 +3,5 @@
 # VSCode
 .vscode/settings.json
 
-# scripts/install-fonts.sh で取得するフォント
+# CI で取得するフォント
 /fonts/
