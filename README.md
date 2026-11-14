@@ -4,6 +4,17 @@
 
 最新のPDFファイルが https://sno2wman.github.io/slides-for-TPP2026/main.pdf から入手出来ます．
 
+## ビルド
+
+必要なフォントを `fonts/` に取得してからビルドする（GitHub Actions でも同じ手順）．
+
+```bash
+scripts/install-fonts.sh
+typst compile --ignore-system-fonts --font-path fonts main.typ
+```
+
+Typst は 0.15.1 を使う．
+
 ## License
 
 [CC BY 4.0](./LICENSE)

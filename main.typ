@@ -261,8 +261,8 @@ FormalizedFormalLogicでももう少し積極的に（実験的に）AIを使っ
     let logo(path) = image(path, height: 1.6em)
     let cy = 3.1
     content((0.4, cy), logo("assets/logos/claude.svg"), anchor: "west")
-    content((1.5, cy), logo("assets/logos/openai.svg"), anchor: "west")
-    content((2.6, cy), logo("assets/logos/googlegemini.svg"), anchor: "west")
+    content((1.5, cy), logo("assets/logos/chatgpt.svg"), anchor: "west")
+    content((2.6, cy), logo("assets/logos/gemini.svg"), anchor: "west")
     content((3.6, cy), text(size: .8em)[or else…], anchor: "west")
 
     // 矢印
